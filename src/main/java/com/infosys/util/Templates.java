@@ -1,4 +1,4 @@
-/*               "Copyright 2020 Infosys Ltd.
+/*               "Copyright ADLI
                Use of this source code is governed by GPL v3 license that can be found in the LICENSE file or at https://opensource.org/licenses/GPL-3.0
                This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3" */
 package com.infosys.util;
@@ -500,13 +500,13 @@ public class Templates {
 		sb.append(
 				"     <o:idmap v:ext=\"edit\" data=\"1\"/>\r\n    </o:shapelayout></xml><![endif]-->\r\n</head>\r\n\r\n<body bgcolor=\"#F2F2F2\" lang=EN-US link=\"#0563C1\" vlink=\"#954F72\"\r\n      style='tab-interval:.5in'>\r\n\r\n    <div class=WordSection1>\r\n\r\n        <div align=center>\r\n\r\n            <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0\r\n                   style='border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in'>\r\n");
 		sb.append(
-				"                <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>\r\n                    <td width=800 valign=top style='width:579.7pt;padding:0in 0in 0in 0in'>\r\n                        <p class=MsoNormal>\r\n                            <a name=\"_MailOriginal\">\r\n                                <span style='mso-no-proof:yes'>\r\n                                    <![if !vml]><img width=800 height=40\r\n");
+				"                <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>\r\n                    <td width=800 valign=top style='width:579.7pt;padding:0in 0in 0in 0in'>\r\n                        <p class=MsoNormal>\r\n                            <a name=\"_MailOriginal\">\r\n                                <span style='mso-no-proof:yes'>\r\n                                    <![if !vml]>\r\n");
 		sb.append(
-				"                                                     src=\"cid:Image\"><![endif]>\r\n                                </span><o:p></o:p>\r\n                            </a>\r\n                        </p>\r\n                    </td>\r\n                    <span style='mso-bookmark:_MailOriginal'></span>\r\n                </tr>\r\n                BodyTemplate\r\n                <span style='mso-bookmark:_MailOriginal'></span></td>\r\n");
+				"                                                     <![endif]>\r\n                                </span><o:p></o:p>\r\n                            </a>\r\n                        </p>\r\n                    </td>\r\n                    <span style='mso-bookmark:_MailOriginal'></span>\r\n                </tr>\r\n                BodyTemplate\r\n                <span style='mso-bookmark:_MailOriginal'></span></td>\r\n");
 		sb.append(
 				"                <span style='mso-bookmark:_MailOriginal'></span>\r\n                </tr>\r\n                <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>\r\n                    <td width=800 valign=top style='width:604.5pt;background:#D9D9D9;mso-background-themecolor:\r\n  background1;mso-background-themeshade:217;padding:0in 0in 0in 0in'>\r\n                        <p class=MsoNormal align=center style='text-align:center'>\r\n                            <span style='mso-bookmark:_MailOriginal'>\r\n");
 		sb.append(
-				"                                <span style='font-size:10.0pt'>\r\n                                    &copy\r\n                                    footerYear, Education Training and Assessment, Infosys Ltd.\r\n                                </span><o:p></o:p>\r\n                            </span>\r\n                        </p>\r\n                    </td>\r\n                    <span style='mso-bookmark:_MailOriginal'></span>\r\n                </tr>\r\n");
+				"                                <span style='font-size:10.0pt'>\r\n                                    &copy\r\n                                    footerYear, Education Training and Assessment, ADLI.\r\n                                </span><o:p></o:p>\r\n                            </span>\r\n                        </p>\r\n                    </td>\r\n                    <span style='mso-bookmark:_MailOriginal'></span>\r\n                </tr>\r\n");
 		sb.append(
 				"            </table>\r\n\r\n        </div>\r\n\r\n        <span style='mso-bookmark:_MailOriginal'></span>\r\n\r\n        <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>\r\n\r\n    </div>\r\n\r\n</body>\r\n\r\n</html>\r\n");
 		return sb.toString();
